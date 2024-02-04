@@ -82,7 +82,13 @@ const reducer = (state, action)=>{
                 dynamic_month: action.payload.month.index,
                 day: action.payload.day
             }
+        case 'SET_MONTH ': 
+        return{
+            ...state,
+            dynamic_month: action.payload
+        }
     }
+
 }
 
 export default reducer

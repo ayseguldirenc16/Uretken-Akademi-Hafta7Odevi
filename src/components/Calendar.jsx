@@ -4,7 +4,7 @@ import { CalenderContext } from '../context/context'
 import ContentWrapper from './ContentWrapper';
 
 function Calendar() {
-    const [{},dispatch]= CalenderContext();
+    const [{ },dispatch]= CalenderContext();
 
     const date= new Date();
     const date_year = date.getFullYear();
@@ -33,8 +33,8 @@ function Calendar() {
      },[])
   return (
    <div className='calendar'>
-    <h1 className=' calendar-title  absolute right-10 top-5 text-8xl text-orange-950'>2024</h1>
-    <div className='calendarBoard mx-auto mt-10' >
+    <h1 className='calendarTitle absolute right-10 top-5 text-8xl text-orange-950'>2024</h1>
+    <div className=' calendarBoard mx-auto mt-10' >
         <ContentWrapper></ContentWrapper>
     </div>
    </div>
@@ -42,3 +42,8 @@ function Calendar() {
 }
 
 export default Calendar
+
+
+
+
+
