@@ -1,0 +1,57 @@
+.board{
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 3rem;
+}
+ .wrapper{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.wrapperTitle{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-family: 'Indie Flower', cursive;
+
+
+}
+.wrapperIcons{
+    display: flex;
+    align-items: end;
+    margin-right: 15px;
+    font-size: 25px;
+    position: absolute;
+    right: 190px;
+    top: 90px;
+    font-weight: 200;
+
+}
+.wrapperIconLeft{
+    color: orange;
+    background-color: antiquewhite;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: all;
+    border-radius: 80%;
+    transition: all;
+    transition: transform 0.3s; 
+}
+.wrapperIconLeft:hover{
+    transform: scale(1.1);
+}
+.board{
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 3rem;
+    width: 100%;
+    padding: 10px;
+} 
+

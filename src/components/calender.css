@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Roboto+Slab&family=Zeyada&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.calendar{
+    min-width: 100vh;
+    min-height: 100vh;
+    overflow: hidden;
+    background-image: url('../../public/image1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    background-size: cover;
+
+}
+.calendarBoard{
+width: 75%;
+aspect-ratio: 14/9;
+
+}
+
+.calendar-title{
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    font-size: 60px;
+    color: rgb(235, 8, 46);
+    font-family: 'Indie Flower', cursive;
+
+
+    
+}
+
+
